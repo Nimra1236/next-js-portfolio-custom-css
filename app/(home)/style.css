@@ -1,0 +1,38 @@
+
+.page-container {
+    min-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+
+  .inner-container {
+    background-color: black;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 50px 50px;
+    position: relative;
+  }
+
+  .inner-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .bottom-gradient {
+    height: 2.5rem;
+    background: linear-gradient(to top, black, transparent);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+  }
+  
+  .bottom-gradient-xl {
+    height: 8rem;
+  }
+  
+
+  .section-margin {
+    margin-top: 5rem;
+  }
